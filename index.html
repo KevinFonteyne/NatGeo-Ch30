@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+
     <title>National Geographic</title>
 </head>
 <body>
-    <nav>
-        <img src="img/ng_2flush_blackyellow_logo.gif" alt="Natgeo Logo">
-        <a href="# ">Login</a> 
-        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href="#">Newsletters</a>
-        <a href="#">Subscribe</a>
-        <a href="#">Menu</a>
-        <a href="#"><i class="fa-solid fa-angles-down"></i></a>
+    
+    <nav class="menu">
+        <div class="img-container">
+            <img class="complete-logo" src="img/ng_2flush_blackyellow_logo.gif" alt="Natgeo Logo">
+            <img class="frame-logo" src="img/ng-border.png" alt="frame">
+        </div>
+
+        <div class="link-container">
+        <a class="link-login" href="# ">Login</a> 
+        <a class="link-search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a class="link-news" href="#">Newsletters</a>
+        <a class="link-subs" href="#">Subscribe</a>
+        <a class="link-menu" href="#">Menu</a>
+        <a class="link-arrows" href="#"><i class="fa-solid fa-angles-down"></i></a>
+        
+    </div>
 </nav>
     <header>
         <h1>Latest Stories</h1>
-        <p>Subscribe for full access to read stories from National Geographic</p>
+        <table>
+            <tr>
+                <td><a class="link-subs" href="#">Subscribe</a></td>
+                <td>for full access to read stories from National Geographic.</td>
+            </tr>
+            
+        </table>
         <div class="line"></div>
     </header>
     <main>
